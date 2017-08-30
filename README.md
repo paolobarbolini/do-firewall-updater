@@ -1,4 +1,4 @@
-# DigitalOcean Firewall Updater [![MIT License](https://img.shields.io/github/license/paolobarbolini/do-firewall-updater.svg?maxAge=2592000)](LICENSE)
+# DigitalOcean Firewall Updater [![MIT License](https://img.shields.io/github/license/paolobarbolini/do-firewall-updater.svg?maxAge=2592000)](LICENSE) [![Build Status](https://travis-ci.org/paolobarbolini/do-firewall-updater.svg?branch=master)](https://travis-ci.org/paolobarbolini/do-firewall-updater)
 _Keep your whitelisted ip address up to date in the digitalocean firewall_
 
 This simple golang program will keep your ip address up to date in the digitalocean firewall, so that you don't have to do it manually.

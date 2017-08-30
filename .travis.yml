@@ -1,0 +1,10 @@
+language: go
+go:
+ - 1.8.x
+ - 1.9
+
+sudo: false
+
+script:
+- make build
+- make verify
