@@ -106,6 +106,16 @@ func main() {
 		return
 	}
 
+	if len(oldIps) == 0 {
+		err = saveNewIps(newIps)
+		if err != nil {
+			log.Fatal(err)
+		}
+
+		log.Println("Firewall initiated succesfully.")
+		return
+	}
+
 	client := newClient(apiToken)
 
 	var firewall *godo.Firewall
