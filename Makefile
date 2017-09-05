@@ -1,5 +1,5 @@
 NAME = "do-firewall-updater"
-VERSION = "v1.0"
+VERSION = "v1.0.1"
 
 GOTOOLS = \
 	golang.org/x/oauth2 \
