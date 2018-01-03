@@ -112,7 +112,7 @@ func main() {
 			log.Fatal(err)
 		}
 
-		log.Println("Firewall initiated succesfully.")
+		log.Println("Firewall initiated successfully.")
 		return
 	}
 
